@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "786188629788",
+    "project_id": "fir-firestore-96fd1",
+    "storage_bucket": "fir-firestore-96fd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786188629788:android:9667863c6dcbbfa5bd2cd9",
+        "android_client_info": {
+          "package_name": "com.udemy.firebase_firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA82dPLVdP_BCBenIwYjVVZvMW2sNbYkEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

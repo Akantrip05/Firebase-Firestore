@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEB3B"
+        tools:context=".SignInActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/SignEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginEnd="21dp"
+                    android:background="@drawable/edtback"
+                    android:hint="Email"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/SignPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="21dp"
+                    android:background="@drawable/edtback"
+                    android:hint="Password"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/SignConf"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="21dp"
+                    android:background="@drawable/edtback"
+                    android:hint="Confirm Password"
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btnSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/edtback"
+                    android:backgroundTint="#F44336"
+                    android:text="Sing-Up"
+                    android:textAllCaps="false"
+                    android:textSize="21dp" />
+
+                <TextView
+                    android:id="@+id/texttologin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:clickable="true"
+                    android:text="Already User? Login here"
+                    android:textColor="#3A1241"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</layout>
